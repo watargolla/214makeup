@@ -3,7 +3,8 @@ picks = []
 
 
 def quickpick
-  rand (1..100)
+  number_set = (1..100)
+  number_set.to_a.sample
 end
 
 def high(guess, random)
